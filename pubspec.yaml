@@ -1,0 +1,21 @@
+name: tmh_app
+description: Tear Meniscus Height (TMH) measurement demo
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  camera: ^0.10.0+4
+  google_mlkit_face_detection: ^0.4.0
+  image: ^4.0.17
+  permission_handler: ^10.4.0
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
